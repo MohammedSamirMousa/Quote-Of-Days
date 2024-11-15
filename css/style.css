@@ -1,0 +1,36 @@
+body {
+    font-family: "Caveat", cursive;
+}
+
+.text-center button {
+    background-color: #f6bd60;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    color: #fff;
+}
+
+.text-center button:hover {
+    background-color: #f7ede2;
+    color: #000;
+}
+
+.bg-img{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000044;
+    background-blend-mode: multiply;
+}
+
+.border-div {
+    border: #0000002a solid 8px;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -ms-border-radius: 25px 25px 25px 25px;
+    -o-border-radius: 25px 25px 25px 25px;
+}
